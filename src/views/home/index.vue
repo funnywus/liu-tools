@@ -9,7 +9,7 @@
           width="50">
       </el-table-column>
       <el-table-column prop="url"
-                       label="地址"
+                       label="地址1"
                        width="220">
         <template slot-scope="{row}">
           <el-link @click="toHref(row)" type="primary">{{ row.title }}</el-link>
